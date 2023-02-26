@@ -43,3 +43,11 @@ kubectl describe pod ${POD_NAME}
 ```
 kubectl exec -it ${POD_NAME} -- bash
 ```
+
+## ref
+
+**training**
+https://cybozu.github.io/introduction-to-kubernetes/introduction-to-kubernetes.html
+
+**minikube**
+https://minikube.sigs.k8s.io/docs/start/

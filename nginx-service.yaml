@@ -4,8 +4,10 @@ metadata:
   name: my-first-service
 spec:
   selector:
-    component: nginx # specify pod's yaml
+    component: nginx
   ports:
     - protocol: TCP
       port: 80
       targetPort: 80
+      nodePort: 30000
+  type: NodePort
